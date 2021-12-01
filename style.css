@@ -1,0 +1,43 @@
+body{
+background-image: url("BCK.jpg");
+}
+#title{
+font-family: 'Patua One', cursive;
+background-color: aqua;
+color: blue;
+text-align:center;
+}
+#title2{
+    font-family: 'Patua One', cursive;
+    background-color:deepskyblue;
+    color: blue;
+    text-align:center;
+    }
+#show_sketch{
+float: right;
+}
+p{
+padding-top:10px;
+font-size:25px; 
+color:chartreuse;
+font-family: 'Patua One', cursive;
+}
+canvas{
+border-radius: 15px;
+border: 10px solid blue;
+animation-name:example;
+animation-duration:0.5s;
+margin-top:45px;
+animation-iteration-count:infinite;
+}
+@keyframes example {
+from
+{box-shadow:1px 1px 45px cyan ;}
+to{box-shadow:1px 1px 45px chartreuse ;}
+}
+#show_sketch{
+    font-family: 'Patua One', cursive;
+    background-color:chartreuse;
+    color: blue;
+    text-align:center;
+}
